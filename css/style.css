@@ -80,6 +80,14 @@ footer {
     padding: 10px;
 }
 
+.close-zoom {
+    background-color: rgb(74 74 74);
+    height: 80px;
+    padding: 30px;
+    color: rgb(231 40 46);
+    
+}
+
 /* stili caratteri all'interno della barra fissa */
 .barra-fissa i {
     text-align: center;
@@ -89,4 +97,9 @@ footer {
 
 .barra-fissa span {
     font-size: 12px;
+}
+
+/* da rivedere */
+.fa-angle-up {
+    font-size: 15px;
 }
