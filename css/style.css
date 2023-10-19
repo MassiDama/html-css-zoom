@@ -12,32 +12,46 @@
 .container {
     height: 100%;
     background-color: black;
-    
-
+    position: relative;
 }
 
 /* barra fissa in alto */
+.griglia-superiore {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    position: fixed;
+    z-index: 500;
+}
 
+.griglia-superiore button {
+    background-color: rgb(74 74 74);
+    color: white;
+    padding: 3px;
+    border-radius: 5%;
+    border: none;
+    font-size: 12px;
+}
 
 /* stili riquadro user */
-.container-uter {
+.container-user {
     display: flex;
     justify-content: center;
     flex-grow: 1;
     flex-wrap: wrap;
-    padding: 50px;  
-    
+    padding: 50px;
 }
 
-.uter {
+.user {
     max-width: 250px; 
     position: relative;
-    padding: 20px 10px;
+    margin: 20px 10px;
 }
 
-.name-uter {
+.name-user {
     position: absolute;
-    bottom: ;
+    bottom: 0;
     left: 0;
     color: white;
     padding: 5px;
@@ -99,11 +113,17 @@ footer {
     padding-bottom: 10px;
 }
 
-.barra-fissa span {
+.barra-fissa a {
     font-size: 12px;
+    color: white;
+    text-decoration: none;
 }
 
 /* da rivedere */
 .fa-angle-up {
     font-size: 15px;
+}
+
+.fa-share-from-square {
+    color: rgb(76 200 3);
 }
