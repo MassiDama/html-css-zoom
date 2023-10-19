@@ -54,7 +54,10 @@
     bottom: 0;
     left: 0;
     color: white;
-    padding: 5px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: rgba(11, 1, 1, 0.637);
+   
 }
 
 
