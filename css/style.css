@@ -1,0 +1,39 @@
+/* stili generali pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100%;
+    background-color: black;
+
+}
+
+
+/* stili riquadro user */
+.container-uter {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    padding: 50px;
+    
+    
+}
+
+.uter {
+    max-width: 250px; 
+    position: relative;
+    padding: 20px 10px;
+   
+}
+
+.name-uter {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding: 5px;
+}
