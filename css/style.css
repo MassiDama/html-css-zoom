@@ -10,10 +10,13 @@
 }
 
 .container {
-    height: 100vw;
+    height: 100%;
     background-color: black;
+    
 
 }
+
+/* barra fissa in alto */
 
 
 /* stili riquadro user */
@@ -22,7 +25,8 @@
     justify-content: center;
     flex-grow: 1;
     flex-wrap: wrap;
-    padding: 50px;   
+    padding: 50px;  
+    
 }
 
 .uter {
@@ -33,7 +37,7 @@
 
 .name-uter {
     position: absolute;
-    bottom: 0;
+    bottom: ;
     left: 0;
     color: white;
     padding: 5px;
